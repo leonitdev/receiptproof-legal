@@ -1,41 +1,78 @@
-Restore Purchases Policy
-ReceiptProof
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Restore Purchases | ReceiptProof</title>
+  <meta name="description" content="Restore Purchases information for ReceiptProof." />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif; margin: 0; line-height: 1.6; }
+    header, main, footer { max-width: 920px; margin: 0 auto; padding: 24px; }
+    header { padding-top: 40px; padding-bottom: 16px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    .meta { opacity: .75; margin: 0 0 24px; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    a { color: inherit; }
+    .card { border: 1px solid rgba(127,127,127,.25); border-radius: 12px; padding: 16px; margin: 16px 0; }
+    ul { padding-left: 20px; }
+    footer { opacity: .75; padding-top: 8px; padding-bottom: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Restore Purchases</h1>
+    <p class="meta">
+      Product: <strong>ReceiptProof</strong><br/>
+      Last updated: <strong>[Insert Date]</strong>
+    </p>
+    <div class="card">
+      If you purchased ReceiptProof premium features via Apple App Store or Google Play, you can restore them without paying again.
+    </div>
+  </header>
 
-ReceiptProof supports restoring purchases made through official app stores.
+  <main>
+    <h2>How Restore Purchases Works</h2>
+    <ul>
+      <li>Purchases are linked to your Apple ID (iOS) or Google account (Android).</li>
+      <li>Restore re-checks your purchase status and re-enables entitlements on this device.</li>
+      <li>No additional payment is required.</li>
+    </ul>
 
-How Restore Purchases Works
+    <h2>When You Should Restore</h2>
+    <ul>
+      <li>You reinstalled the App</li>
+      <li>You changed devices</li>
+      <li>Premium features appear locked after sign-in</li>
+    </ul>
 
-Purchases are linked to your Apple ID or Google account
+    <h2>Limitations</h2>
+    <ul>
+      <li>Restores require using the same Store account used for purchase.</li>
+      <li>iOS purchases cannot be restored on Android and vice versa.</li>
+      <li>Refunds are handled by Apple/Google according to their policies.</li>
+    </ul>
 
-Restoring purchases reactivates previously purchased subscriptions or features
+    <h2>Troubleshooting</h2>
+    <ul>
+      <li>Confirm you are signed into the correct Apple ID / Google account.</li>
+      <li>Verify the subscription is active in Store subscription settings.</li>
+      <li>Restart the App and try Restore again.</li>
+    </ul>
 
-No additional payment is required
+    <h2>Contact</h2>
+    <p>
+      If you still have issues restoring purchases, contact:<br/>
+      <a href="mailto:leonitkuleta@gmail.com">leonitkuleta@gmail.com</a>
+    </p>
+  </main>
 
-When to Use Restore Purchases
+  <footer>
+    <p>© <span id="y"></span> ReceiptProof. All rights reserved.</p>
+  </footer>
 
-You reinstall the App
-
-You change devices
-
-Your subscription appears inactive after login
-
-Limitations
-
-Purchases cannot be transferred between accounts
-
-Restores are only available for purchases made on the same platform (iOS or Android)
-
-Refunds are handled exclusively by Apple or Google
-
-Troubleshooting
-
-If restore does not work:
-
-Ensure you are logged into the correct App Store account
-
-Check your active subscriptions in the App Store / Play Store
-
-Restart the App and try again
-
-If issues persist, contact:
-support@receiptproof.app
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
